@@ -1,0 +1,29 @@
+.second {
+    height: 50px;
+}
+
+.first {
+    background-color: red;
+}
+
+.second {
+    background-color: green;
+}
+.inner{
+    background-color: yellow;
+    height: 300px;
+    margin-bottom: 10px;
+}
+ul {
+    margin-left:auto;
+}
+
+#carouselExampleIndicators{
+    height: 500px;
+}
+#carouselExampleIndicators .carousel-inner, #carouselExampleIndicators .carousel-inner .carousel-item, #carouselExampleIndicators .carousel-inner .carousel-item img {
+    height: 100%;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+    object-fit: cover;
+}
